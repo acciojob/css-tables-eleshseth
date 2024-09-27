@@ -1,1 +1,10 @@
 /*  your css code here. If applicable */
+td, th{
+	border:1px solid #ccc ;
+	padding:0.5rem;
+	border-radius:5px;
+	
+}
+tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
